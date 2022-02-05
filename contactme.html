@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Yujie's Homepage</title>   
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header style="text-align: center;">
+        <h1>Yujie's Homepage</h1>
+        </header>
+        <hr>
+
+
+        <div class="topnav"> 
+            <a href="index.html">Home</a>
+            <a href="githubrepos.html">Github Repos</a>
+            <a href="notes.html">Notes</a>
+            <a class = "active" href = "contactme.html">Contact me</a>
+        </div>
+
+        <br>
+
+        <div class="out_form">
+            <table>
+                <form class="contactme_form" id="form">
+                    <tr>
+                        <td style="width: 10%;">
+                            <label for="name">
+                                Name:
+                            </label>
+                        </td>
+                        <td><input type="text" id="name" /></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:
+                        </td>
+                        <td><input type="email" id="email" pattern=".+@.+\..+" size="30" required></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for = "Date">
+                            Date:
+                            </label>
+                        </td>
+                        <td><input type="date" id="date"></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for = "Message">
+                            Message:
+                            </label>
+                        </td>
+                        <td><textarea id="message"  rows="4" cols="40"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">Submit</button></td>
+                    </tr>
+                </form>
+                <tr>
+                    <td colspan="2"><p id="log"></p></td>
+                </tr>
+            </table>
+            <br><br>
+
+            
+                            
+        </div>
+
+
+        <footer style="text-align: center;color: #494040; clear:both">
+            <p style="padding-top:30px">Copyright 2021 by Yujie Zhang. All Rights Reserved.</p>
+        </footer>
+        <script src="script/contactme.js"></script>
+    </body>
+    </script>
+</html>

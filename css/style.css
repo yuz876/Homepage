@@ -221,3 +221,26 @@ a + span {
 p.CombiningTwoSelectors {
     color:#e46f6f;
 }
+
+
+.out_form{
+    width: 60%;
+    margin: auto;
+}
+.contactme_form{
+    text-align: left;
+}
+.submit{
+    text-align: center;
+}
+.text{
+    padding: 10px;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+}
+/* table, td  {
+    border: 1px solid black;
+} */
